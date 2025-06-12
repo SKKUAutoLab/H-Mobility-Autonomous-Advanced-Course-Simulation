@@ -1,0 +1,48 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: H-Mobility-Autonomous-Advanced-Course-Simulation
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Hyeong-Keun
+    family-names: Hong
+    email: whaihong@g.skku.edu
+    affiliation: Sungkyunkwan University
+    orcid: 'https://orcid.org/0009-0007-4678-2019'
+  - given-names: Jinsun
+    family-names: Lee
+    email: 012vision@gmail.com
+    affiliation: Sungkyunkwan University
+    orcid: "https://orcid.org/0009-0008-8484-4433"
+  - given-names: Yeonggwang
+    family-names: Choi
+    email: dudrhkd7811@naver.com
+    affiliation: Sungkyunkwan University
+  - given-names: Eunho
+    family-names: Kim
+    email: dmsghdmstj@g.skku.edu
+    affiliation: Sungkyunkwan University
+  - given-names: Younghoon
+    family-names: Suh
+    email: dudgns0407@g.skku.edu
+    affiliation: Sungkyunkwan University
+  - given-names: Hyojin
+    family-names: Park
+    email: phyojin0511@g.skku.edu
+    affiliation: Sungkyunkwan University
+  - given-names: HyeHyeon
+    family-names: Park
+    email: catsneeze@g.skku.edu
+    affiliation: Sungkyunkwan University
+  - given-names: HyeJun
+    family-names: Hong
+    email: iamhhj@g.skku.edu
+    affiliation: Sungkyunkwan University
+
+repository-code: >-
+  https://github.com/SKKUAutoLab/H-Mobility-Autonomous-Advanced-Course-Simulation
+license: GPL-3.0
