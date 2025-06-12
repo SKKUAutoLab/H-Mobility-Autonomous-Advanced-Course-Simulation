@@ -24,7 +24,7 @@ pip install huggingface_hub
 
 
 
-# cp -r ~/ros2_autonomous_vehicle_simulation/src/simulation_pkg/models/* /home/$(whoami)/.gazebo/models
+# cp -r ~/H-Mobility-Autonomous-Advanced-Course-Simulation/src/simulation_pkg/models/* /home/$(whoami)/.gazebo/models
 GAZEBO_DIR="/home/$(whoami)/.gazebo"
 if [ -d "$GAZEBO_DIR" ]; then
     echo "" # .gazebo 폴더가 존재하는지 확인
@@ -42,7 +42,7 @@ fi
 
 
 # 패키지 폴더의 모든 내용을 .gazebo/models 폴더로 복사
-SOURCE_MODELS_DIR="/home/$(whoami)/ros2_autonomous_vehicle_simulation/src/simulation_pkg/models"
+SOURCE_MODELS_DIR="/home/$(whoami)/H-Mobility-Autonomous-Advanced-Course-Simulation/src/simulation_pkg/models"
 if [ -d "$SOURCE_MODELS_DIR" ]; then
     echo "$SOURCE_MODELS_DIR의 내용을 $MODELS_DIR로 복사합니다."
     cp -r "$SOURCE_MODELS_DIR/"* "$MODELS_DIR/"
