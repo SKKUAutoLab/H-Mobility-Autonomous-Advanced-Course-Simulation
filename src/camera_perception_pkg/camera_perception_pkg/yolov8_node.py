@@ -26,6 +26,7 @@ from rclpy.lifecycle import TransitionCallbackReturn
 from rclpy.lifecycle import LifecycleState
 
 from cv_bridge import CvBridge
+import cv2
 
 from ultralytics import YOLO
 from ultralytics.engine.results import Results
@@ -252,6 +253,7 @@ class Yolov8Node(LifecycleNode):
 
             # convert image + predict
             cv_image = self.cv_bridge.imgmsg_to_cv2(msg)
+            cv_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2RGB)
             results = self.yolo.predict(
                 source=cv_image,
                 verbose=False,
