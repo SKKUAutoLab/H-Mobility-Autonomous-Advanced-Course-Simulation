@@ -8,16 +8,16 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - given-names: Hyeong-Keun
-    family-names: Hong
-    email: whaihong@g.skku.edu
-    affiliation: Sungkyunkwan University
-    orcid: 'https://orcid.org/0009-0007-4678-2019'
   - given-names: Jinsun
     family-names: Lee
     email: 012vision@gmail.com
     affiliation: Sungkyunkwan University
     orcid: "https://orcid.org/0009-0008-8484-4433"
+  - given-names: Hyeong-Keun
+    family-names: Hong
+    email: whaihong@g.skku.edu
+    affiliation: Sungkyunkwan University
+    orcid: 'https://orcid.org/0009-0007-4678-2019'
   - given-names: Yeonggwang
     family-names: Choi
     email: dudrhkd7811@naver.com
